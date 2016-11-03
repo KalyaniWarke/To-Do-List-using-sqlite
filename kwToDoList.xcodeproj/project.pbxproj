@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324EB2321DA3905700D90B53 /* KWDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 324EB2311DA3905700D90B53 /* KWDatabaseManager.m */; };
+		324EB2341DA392E200D90B53 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 324EB2331DA392E200D90B53 /* libsqlite3.tbd */; };
+		327C283C1DCB69CF007E6FF8 /* WarkeKalyani.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 327C283B1DCB69CF007E6FF8 /* WarkeKalyani.sqlite */; };
+		32BFF1811DA2586E00C221EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BFF1801DA2586E00C221EC /* main.m */; };
+		32BFF1841DA2586E00C221EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BFF1831DA2586E00C221EC /* AppDelegate.m */; };
+		32BFF1871DA2586E00C221EC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BFF1861DA2586E00C221EC /* FirstViewController.m */; };
+		32BFF18A1DA2586E00C221EC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BFF1891DA2586E00C221EC /* SecondViewController.m */; };
+		32BFF18D1DA2586E00C221EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BFF18B1DA2586E00C221EC /* Main.storyboard */; };
+		32BFF18F1DA2586E00C221EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BFF18E1DA2586E00C221EC /* Assets.xcassets */; };
+		32BFF1921DA2586E00C221EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BFF1901DA2586E00C221EC /* LaunchScreen.storyboard */; };
+		32BFF19D1DA2586E00C221EC /* kwToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BFF19C1DA2586E00C221EC /* kwToDoListTests.m */; };
+		32BFF1A81DA2586E00C221EC /* kwToDoListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BFF1A71DA2586E00C221EC /* kwToDoListUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32BFF1991DA2586E00C221EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BFF1741DA2586E00C221EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BFF17B1DA2586E00C221EC;
+			remoteInfo = kwToDoList;
+		};
+		32BFF1A41DA2586E00C221EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BFF1741DA2586E00C221EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BFF17B1DA2586E00C221EC;
+			remoteInfo = kwToDoList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		324EB2301DA3905700D90B53 /* KWDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWDatabaseManager.h; sourceTree = "<group>"; };
+		324EB2311DA3905700D90B53 /* KWDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWDatabaseManager.m; sourceTree = "<group>"; };
+		324EB2331DA392E200D90B53 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		327C283B1DCB69CF007E6FF8 /* WarkeKalyani.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WarkeKalyani.sqlite; sourceTree = "<group>"; };
+		32BFF17C1DA2586E00C221EC /* kwToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kwToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BFF1801DA2586E00C221EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32BFF1821DA2586E00C221EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32BFF1831DA2586E00C221EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32BFF1851DA2586E00C221EC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		32BFF1861DA2586E00C221EC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		32BFF1881DA2586E00C221EC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		32BFF1891DA2586E00C221EC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		32BFF18C1DA2586E00C221EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32BFF18E1DA2586E00C221EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32BFF1911DA2586E00C221EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32BFF1931DA2586E00C221EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BFF1981DA2586E00C221EC /* kwToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kwToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BFF19C1DA2586E00C221EC /* kwToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kwToDoListTests.m; sourceTree = "<group>"; };
+		32BFF19E1DA2586E00C221EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BFF1A31DA2586E00C221EC /* kwToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kwToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BFF1A71DA2586E00C221EC /* kwToDoListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kwToDoListUITests.m; sourceTree = "<group>"; };
+		32BFF1A91DA2586E00C221EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32BFF1791DA2586E00C221EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324EB2341DA392E200D90B53 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BFF1951DA2586E00C221EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BFF1A01DA2586E00C221EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32BFF1731DA2586E00C221EC = {
+			isa = PBXGroup;
+			children = (
+				324EB2331DA392E200D90B53 /* libsqlite3.tbd */,
+				32BFF17E1DA2586E00C221EC /* kwToDoList */,
+				32BFF19B1DA2586E00C221EC /* kwToDoListTests */,
+				32BFF1A61DA2586E00C221EC /* kwToDoListUITests */,
+				32BFF17D1DA2586E00C221EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32BFF17D1DA2586E00C221EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32BFF17C1DA2586E00C221EC /* kwToDoList.app */,
+				32BFF1981DA2586E00C221EC /* kwToDoListTests.xctest */,
+				32BFF1A31DA2586E00C221EC /* kwToDoListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32BFF17E1DA2586E00C221EC /* kwToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				327C283B1DCB69CF007E6FF8 /* WarkeKalyani.sqlite */,
+				324EB2301DA3905700D90B53 /* KWDatabaseManager.h */,
+				324EB2311DA3905700D90B53 /* KWDatabaseManager.m */,
+				32BFF1821DA2586E00C221EC /* AppDelegate.h */,
+				32BFF1831DA2586E00C221EC /* AppDelegate.m */,
+				32BFF1851DA2586E00C221EC /* FirstViewController.h */,
+				32BFF1861DA2586E00C221EC /* FirstViewController.m */,
+				32BFF1881DA2586E00C221EC /* SecondViewController.h */,
+				32BFF1891DA2586E00C221EC /* SecondViewController.m */,
+				32BFF18B1DA2586E00C221EC /* Main.storyboard */,
+				32BFF18E1DA2586E00C221EC /* Assets.xcassets */,
+				32BFF1901DA2586E00C221EC /* LaunchScreen.storyboard */,
+				32BFF1931DA2586E00C221EC /* Info.plist */,
+				32BFF17F1DA2586E00C221EC /* Supporting Files */,
+			);
+			path = kwToDoList;
+			sourceTree = "<group>";
+		};
+		32BFF17F1DA2586E00C221EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32BFF1801DA2586E00C221EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32BFF19B1DA2586E00C221EC /* kwToDoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				32BFF19C1DA2586E00C221EC /* kwToDoListTests.m */,
+				32BFF19E1DA2586E00C221EC /* Info.plist */,
+			);
+			path = kwToDoListTests;
+			sourceTree = "<group>";
+		};
+		32BFF1A61DA2586E00C221EC /* kwToDoListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32BFF1A71DA2586E00C221EC /* kwToDoListUITests.m */,
+				32BFF1A91DA2586E00C221EC /* Info.plist */,
+			);
+			path = kwToDoListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32BFF17B1DA2586E00C221EC /* kwToDoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BFF1AC1DA2586E00C221EC /* Build configuration list for PBXNativeTarget "kwToDoList" */;
+			buildPhases = (
+				32BFF1781DA2586E00C221EC /* Sources */,
+				32BFF1791DA2586E00C221EC /* Frameworks */,
+				32BFF17A1DA2586E00C221EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kwToDoList;
+			productName = kwToDoList;
+			productReference = 32BFF17C1DA2586E00C221EC /* kwToDoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32BFF1971DA2586E00C221EC /* kwToDoListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BFF1AF1DA2586E00C221EC /* Build configuration list for PBXNativeTarget "kwToDoListTests" */;
+			buildPhases = (
+				32BFF1941DA2586E00C221EC /* Sources */,
+				32BFF1951DA2586E00C221EC /* Frameworks */,
+				32BFF1961DA2586E00C221EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BFF19A1DA2586E00C221EC /* PBXTargetDependency */,
+			);
+			name = kwToDoListTests;
+			productName = kwToDoListTests;
+			productReference = 32BFF1981DA2586E00C221EC /* kwToDoListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32BFF1A21DA2586E00C221EC /* kwToDoListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BFF1B21DA2586E00C221EC /* Build configuration list for PBXNativeTarget "kwToDoListUITests" */;
+			buildPhases = (
+				32BFF19F1DA2586E00C221EC /* Sources */,
+				32BFF1A01DA2586E00C221EC /* Frameworks */,
+				32BFF1A11DA2586E00C221EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BFF1A51DA2586E00C221EC /* PBXTargetDependency */,
+			);
+			name = kwToDoListUITests;
+			productName = kwToDoListUITests;
+			productReference = 32BFF1A31DA2586E00C221EC /* kwToDoListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32BFF1741DA2586E00C221EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kalyani Warke";
+				TargetAttributes = {
+					32BFF17B1DA2586E00C221EC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					32BFF1971DA2586E00C221EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 32BFF17B1DA2586E00C221EC;
+					};
+					32BFF1A21DA2586E00C221EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 32BFF17B1DA2586E00C221EC;
+					};
+				};
+			};
+			buildConfigurationList = 32BFF1771DA2586E00C221EC /* Build configuration list for PBXProject "kwToDoList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32BFF1731DA2586E00C221EC;
+			productRefGroup = 32BFF17D1DA2586E00C221EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32BFF17B1DA2586E00C221EC /* kwToDoList */,
+				32BFF1971DA2586E00C221EC /* kwToDoListTests */,
+				32BFF1A21DA2586E00C221EC /* kwToDoListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32BFF17A1DA2586E00C221EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BFF1921DA2586E00C221EC /* LaunchScreen.storyboard in Resources */,
+				32BFF18F1DA2586E00C221EC /* Assets.xcassets in Resources */,
+				327C283C1DCB69CF007E6FF8 /* WarkeKalyani.sqlite in Resources */,
+				32BFF18D1DA2586E00C221EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BFF1961DA2586E00C221EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BFF1A11DA2586E00C221EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BFF1781DA2586E00C221EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BFF18A1DA2586E00C221EC /* SecondViewController.m in Sources */,
+				32BFF1841DA2586E00C221EC /* AppDelegate.m in Sources */,
+				324EB2321DA3905700D90B53 /* KWDatabaseManager.m in Sources */,
+				32BFF1871DA2586E00C221EC /* FirstViewController.m in Sources */,
+				32BFF1811DA2586E00C221EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BFF1941DA2586E00C221EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BFF19D1DA2586E00C221EC /* kwToDoListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BFF19F1DA2586E00C221EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BFF1A81DA2586E00C221EC /* kwToDoListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32BFF19A1DA2586E00C221EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BFF17B1DA2586E00C221EC /* kwToDoList */;
+			targetProxy = 32BFF1991DA2586E00C221EC /* PBXContainerItemProxy */;
+		};
+		32BFF1A51DA2586E00C221EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BFF17B1DA2586E00C221EC /* kwToDoList */;
+			targetProxy = 32BFF1A41DA2586E00C221EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32BFF18B1DA2586E00C221EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BFF18C1DA2586E00C221EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32BFF1901DA2586E00C221EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BFF1911DA2586E00C221EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32BFF1AA1DA2586E00C221EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32BFF1AB1DA2586E00C221EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32BFF1AD1DA2586E00C221EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kwToDoList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalyani.kwToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32BFF1AE1DA2586E00C221EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kwToDoList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalyani.kwToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32BFF1B01DA2586E00C221EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kwToDoListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalyani.kwToDoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kwToDoList.app/kwToDoList";
+			};
+			name = Debug;
+		};
+		32BFF1B11DA2586E00C221EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kwToDoListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalyani.kwToDoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kwToDoList.app/kwToDoList";
+			};
+			name = Release;
+		};
+		32BFF1B31DA2586E00C221EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kwToDoListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalyani.kwToDoListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kwToDoList;
+			};
+			name = Debug;
+		};
+		32BFF1B41DA2586E00C221EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kwToDoListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalyani.kwToDoListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kwToDoList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32BFF1771DA2586E00C221EC /* Build configuration list for PBXProject "kwToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BFF1AA1DA2586E00C221EC /* Debug */,
+				32BFF1AB1DA2586E00C221EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BFF1AC1DA2586E00C221EC /* Build configuration list for PBXNativeTarget "kwToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BFF1AD1DA2586E00C221EC /* Debug */,
+				32BFF1AE1DA2586E00C221EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BFF1AF1DA2586E00C221EC /* Build configuration list for PBXNativeTarget "kwToDoListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BFF1B01DA2586E00C221EC /* Debug */,
+				32BFF1B11DA2586E00C221EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BFF1B21DA2586E00C221EC /* Build configuration list for PBXNativeTarget "kwToDoListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BFF1B31DA2586E00C221EC /* Debug */,
+				32BFF1B41DA2586E00C221EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32BFF1741DA2586E00C221EC /* Project object */;
+}
